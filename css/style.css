@@ -1,0 +1,27 @@
+.frontLogo{
+  position: relative;
+
+}
+.logoName{
+  position:absolute;
+  top:10%;
+  left:30%;
+  justify-content: center;
+  /* font-family: 'Black Ops One', cursive;
+  font-size: 500px; */
+  color:rgb(255, 0, 0);
+
+}
+#taste{
+  top:60%;
+  left:40%;
+  padding-top: 40%;
+  font-family: 'Black Ops One', cursive;
+  font-size: 22px;
+  color:rgb(247, 243, 10);
+}
+h2{
+  font-family: 'Black Ops One', cursive;
+  font-size:80px;
+
+}
