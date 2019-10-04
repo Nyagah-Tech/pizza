@@ -25,3 +25,16 @@ h2{
   font-size:80px;
 
 }
+body{
+  background-color:white;
+  color:black;
+  font-family: 'Vast Shadow', cursive;
+  font-size: 20px;
+}
+.col-md-10{
+  text-align:center;
+}
+#pic76{
+  position:relative;
+  left:10%;
+}
