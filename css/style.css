@@ -38,3 +38,19 @@ body{
   position:relative;
   left:10%;
 }
+#hide{
+
+  display: none;
+}
+.hide1{
+  display:none;
+}
+.card-body{
+  /* text-align: center; */
+  margin: 2px;
+}
+.list{
+  position: absolute;
+  left:70%;
+  top:4%;
+}

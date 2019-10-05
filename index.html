@@ -83,20 +83,156 @@
   </div><br>
   <div id="orderForm">
     <center><h3><b>~ORDER FORM~</b></h3></center><br>
-    <form class="finalCalc" >
-      <div class="pizzaSize">
-        <center><h3>Choose your pizza size..</h3></center>
-        <p class="top1">Large.</p>
-        <input type="radio" name="large" value="large"><br>
-        <p class="top2">Medium.</p>
-        <input type="radio" name="medium" value="medium"><br>
-        <p class="top3">Small.</p>
-        <input type="radio" name="small" value="small">
+    <div class="card">
+      <div class="card-body">
+        <form class="finalCalc" >
+          <table> 
+            <tr>
+              <td>
+                <tr>
+                  <td>
+
+                      <div class="pizzaSize">
+                          <h5>Choose your pizza size..</h5>
+                            <select name="size" id="size">
+                              <option name="small" value="small">Small</option>
+                              <option name="medium" value="medium">Medium</option>
+                              <option name="large" value="large">Large</option>
+                              <option name="mega" value="mega">Mega</option>
+                            </select><br><br>
+                          <p id="show1"><i><b>Show images.</b></i></p>
+                          <div id="hide">
+                            <div class="row">
+                              <div class="col-sm-3">
+                                <img src="images/4piece.jpg" width="200px" height="200px">
+                                <figcaption><p>Small size pizza.<br>4-pieces.</p></figcaption>
+                              </div>
+                              <div class="col-sm-3">
+                                <img src="images/veg2pizza.jpeg" width="200px" height="200px">
+                                <figcaption>Medium size pizza<br>6-pieces.</figcaption>
+                              </div>
+                              <div class="col-sm-3">
+                                <img src="images/tomatopizza.jpeg" width="200px" height="200px">
+                                <figcaption><p>Large size pizza<br>8-pieces.</p></figcaption>
+                              </div>
+                              <div class="col-sm-3">
+                                <img src="images/meatpizza.jpeg" width="200px" height="200px">
+                                <figcaption><p>Mega size pizza<br>12-pieces.</p></figcaption>
+                              </div>
+                            </div>
+                          </div>
+                        </div><br>
+                    
+                        <!-- </td>    
+                        <tr>
+                          <td> -->
+                            <h5>Choose your crust. </h5>
+                            <select name="crust" id="crust">
+                              <option name="thinCrust" value="thinCrust">Thin crust</option>
+                              <option name="thickCrust" value="thickCrust">Thick crust</option>
+                              <option name="cheeseStuffed" value="cheesestuffed">Cheese crust</option>
+                              <option name="neaCrust" value="neaCrust">Neapolitan crust</option>                       
+                            </select><br><br>
+                            <p id="show2"><i><b>Show images</b></i></p>
+                            <div class="hide1">
+                              <div class="row">
+                                <div class="col-sm-3">
+                                    <img src="images/crustThin.jpeg" alt="thin crust" height="200px" width="200px">
+                                    <figcaption>Thin crust pizza<br></figcaption>
+                                </div>
+                                <div class="col-sm-3">
+                                    <img src="images/thickcrust.jpeg" height="200px" width="200px">
+                                    <figcaption>Thick crust pizza</figcaption>
+                                </div>
+                                <div class="col-sm-3">
+                                    <img src="images/cheeseCrust.jpeg" height="200px" width="200px">
+                                    <figcaption>Cheese crust</figcaption>
+                                </div>
+                                <div class="col-sm-3">
+                                    <img src="images/crustNe.jpeg" height="200px" width="200px">
+                                    <figcaption>Neapolitan crust.</figcaption>
+                                </div>
+                              </div>                      
+                            </div><br><br>
+                            <h5>Choose your toppings</h5><br>
+                            <p>Vegetables:</p>
+                            <input type="checkbox" name="ovacado" value="ovacado">
+                            <label for="ovacado">Ovacado</label>
+                            <input type="checkbox" name="broccoli" value="broccoli">
+                            <label for="broccoli">Broccoli</label>
+                            <input type="checkbox" name="carrot" value="carrot">
+                            <label for="carrot">Carrot</label>
+                            <input type="checkbox" name="cherrytomatoes" value="cherrytomatoes">
+                            <label for="cherrytomatoes">Cherry tomatoes</label>
+                            <input type="checkbox" name="driedTomatoes" value="driedTomatoes">
+                            <label for="driedTomatoes">Dried Tomatoes</label><br>
+                            <input type="checkbox" name="lettuce" value="lettuce">
+                            <label for="lettuce">Lettuce</label>
+                            <input type="checkbox" name="greenpepper" value="greenpepper">
+                            <label for="greenpepper">Greenpepper</label>
+                            <input type="checkbox" name="onions" value="onions">
+                            <label for="onions">Onions</label>
+                            <input type="checkbox" name="redonions" value="redonions">
+                            <label for="redonions">Redonions</label>
+                            <input type="checkbox" name="mushrooms" value="mushroom">
+                            <label for="mushroom">Mushroom</label>
+                            <input type="checkbox" name="spinach" value="spinach">
+                            <label for="spinach">Spinach</label><br>
+
+                            <p>Meat:</p>
+                            <input type="checkbox" name="bacon" value="bacon">
+                            <label for="bacon">Bacon</label>
+                            <input type="checkbox" name="beef" value="beef">
+                            <label for="beef">Beef</label>
+                            <input type="checkbox" name="chickenMasala" value="chickenMasala">
+                            <label for="chickenMasala">Chicken masala</label>
+                            <input type="checkbox" name="pepperoni" value="pepperoni">
+                            <label for="pepperoni">Pepperoni</label>
+                            <input type="checkbox" name="sausage" value="sausage">
+                            <label for="sausage">Sausage</label>
+                            <input type="checkbox" name="chickenTikka" value="chickenTikka">
+                            <label for="chickenTikka">Chicken Tikka</label><br>
+                            
+                            <p>Herbs and Spices</p>
+                            <input type="checkbox" name="garlic"value="Parlic">
+                            <label for="garlic">Garlic</label>
+                            <input type="checkbox" name="pepper"value="Pepper">
+                            <label for="pepper">Pepper</label>
+                            <input type="checkbox" name="rosemary"value="Rosemary">
+                            <label for="rosemary">Rosemary</label>
+                            <input type="checkbox" name="basil"value="basil">
+                            <label for="basil">Basil</label><br>
+                            
+                            <p>Cheese:</p>
+                            <input type="checkbox" name="blueCheese" value="BlueCheese">
+                            <label for="bluecheese">Blue cheese</label>
+                            <input type="checkbox" name="brie" value="brie">
+                            <label for="brie">Brie</label>
+                            <input type="checkbox" name="chedar" value="chedar">
+                            <label for="chedar">Chedar</label>
+                  </td>
+                  <td>
+                    <div class="list">
+                      <p>Your order list.</p>
+                      <ul id="order"></ul>
+                      <div class="row">
+                        <div class="col-sm-6">
+                          <button id="deliver">Delivery</button>
+                        </div>
+                        <div class="col-sm-6">
+                          <button id="pick">Pick-up</button>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+              </td>
+            </tr>  
+          </table>
+        </form>
       </div>
-      <div class="row">
-        <div class="col-"
-      </div>
-    </form>
+    </div>
+    
   </div>
 
   
@@ -104,5 +240,7 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="js/jquery-3.4.1.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
