@@ -97,7 +97,7 @@ $(document).ready(function(){
                 pizza.toppings+
               '</li>'+
               '<li>'+
-                '<p>Delivery location '+ location +'= 150</p>'+
+                '<p>Delivery = 150</p>'+
               '</li>'+
               '<li>'+
                 total+
@@ -121,7 +121,7 @@ $(document).ready(function(){
            var location= prompt("Enter your location");
            alert("Your pizza will be delivered to " + location +" " + "thank you")
         }
-    })
+    });
     
     });
 

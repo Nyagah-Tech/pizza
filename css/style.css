@@ -51,10 +51,10 @@ body{
 }
 .list{
   position: absolute;
-  left:70%;
-  top:50%;
-  color:rgb(148, 81, 81);
-  background-color: rgba(102, 102, 57, 0.856)
+  left:80%;
+  top:17%;
+  color:white;
+  background-color: black;
 }
 #total{
   position: absolute;;
