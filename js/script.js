@@ -74,6 +74,11 @@ $(document).ready(function(){
         $(".hide1").toggle();
         $("#show2").toggle();
     });
+    $(".order").click(function(){
+        $(".oder").toggle();
+        $(".finalform").toggle();
+    });
+    
     inputtedSize=$("#size option:selected").val();
     inputtedCrust=$("#crust option:selected").val();
     $("input:checkbox[name='topping']:checked").each(function(){
