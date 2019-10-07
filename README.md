@@ -12,6 +12,7 @@ Have a device that can access internet.
                                   
 
 ## Known Bugs
+The above web apllication is upto date and no know bug is present.
  
 ## Technologies Used
 The language used to develop this application is the HTML,CSS,BOOTSTRAP,JAVASCRIPT and JQUERY which is a js library.. 
