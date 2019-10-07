@@ -106,3 +106,8 @@ h5{
 .card{
   background-color: transparent;
 }
+#submit{
+  position: absolute;
+  left:26%;
+  top:95%;
+}
