@@ -14,15 +14,16 @@ function Pizza(size,crust,toppings){
 var pizzaSizePrice = {
     small:400,
     medium : 550,
-    large: 650
+    large: 650,
+    mega:850
 }
 
 var pizzaCrustPrice = {
-    thinCrust: 150,
-    thickCrust: 200,
-    neapolitanCrust:250,
-    StuffedCrust:300,
-    cheeseCrust:350
+    thinCrust: 250,
+    thickCrust: 350,
+    neapolitanCrust:450,
+    StuffedCrust:550,
+    cheeseCrust:500
 }
 
 function getPriceBySize(){
@@ -48,7 +49,7 @@ function getPriceByCrust(){
     }
 }
 function getPriceByTopping(){
-    return inputtedToppings.length * 50;
+    return inputtedToppings.length * 70;
 }
 function getTotalPrice(){
     return getPriceBySize() + getPriceByCrust() + getPriceByTopping();
@@ -93,13 +94,13 @@ $(document).ready(function(){
           $("#order").append(
               '<ul>'+
               '<li>'+
-                pizza.size+
+                '<p>Pizza size:</p>'+ pizza.size+
               '</li>'+
               '<li>'+
-                pizza.crust+
+                '<p>Pizza crust:</p>'+ pizza.crust+
               '</li>'+
               '<li>'+
-                pizza.toppings+
+                '<p>Pizza Toppings:</p>'+ pizza.toppings+
               '</li>'+
               '<li>'+
                 '<p>Delivery = 150</p>'+
