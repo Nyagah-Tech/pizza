@@ -9,6 +9,8 @@
     <link href="css/style.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Black+Ops+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Vast+Shadow&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Cormorant&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Ultra&display=swap" rel="stylesheet"> 
     
     
 </head>
@@ -81,160 +83,177 @@
       <button type="button" class="btn"><img id="pic76" src="images/oder2.jpeg" height="200px" width="350px"></button>
     </center>
   </div><br>
-  <div id="orderForm">
-    <center><h3><b>~ORDER FORM~</b></h3></center><br>
-    <div class="card">
-      <div class="card-body">
-        <form class="finalCalc" >
-          <table> 
-            <tr>
-              <td>
+  <div class="finalform">
+    <!-- <img class="back1" src="images/back2.jpeg" alt="background" height="1600px" width="100%"> -->
+    <div class="orderForm">
+        <center><h3 class="hd1"><b>~ORDER NOW~</b></h3></center>
+        <!-- <div class="card"> -->
+          <div class="card-header">
+            <center><h3 class="status">'Discover a new taste with The Bazaar Pizzeria'</h3></center>
+          </div>
+          <!-- <div class="card-body"> -->
+            <form class="finalCalc" >
+              <table> 
                 <tr>
                   <td>
-
-                      <div class="pizzaSize">
-                          <h5>Choose your pizza size..</h5>
-                            <select name="size" id="size">
-                              <option name="small" value="small">Small</option>
-                              <option name="medium" value="medium">Medium</option>
-                              <option name="large" value="large">Large</option>
-                              <option name="mega" value="mega">Mega</option>
-                            </select><br><br>
-                          <p id="show1"><i><b>Show images.</b></i></p>
-                          <div id="hide">
-                            <div class="row">
-                              <div class="col-sm-3">
-                                <img src="images/4piece.jpg" width="200px" height="200px">
-                                <figcaption><p>Small size pizza.<br>4-pieces.</p></figcaption>
-                              </div>
-                              <div class="col-sm-3">
-                                <img src="images/veg2pizza.jpeg" width="200px" height="200px">
-                                <figcaption>Medium size pizza<br>6-pieces.</figcaption>
-                              </div>
-                              <div class="col-sm-3">
-                                <img src="images/tomatopizza.jpeg" width="200px" height="200px">
-                                <figcaption><p>Large size pizza<br>8-pieces.</p></figcaption>
-                              </div>
-                              <div class="col-sm-3">
-                                <img src="images/meatpizza.jpeg" width="200px" height="200px">
-                                <figcaption><p>Mega size pizza<br>12-pieces.</p></figcaption>
+                    <tr>
+                      <td>
+    
+                          <div class="pizzaSize">
+                              <h5>Choose your pizza size..</h5>
+                                <select name="size" id="size">
+                                  <option name="small" value="small">Small</option>
+                                  <option name="medium" value="medium">Medium</option>
+                                  <option name="large" value="large">Large</option>
+                                  <option name="mega" value="mega">Mega</option>
+                                </select><br>
+                              <p id="show1"><i>Show images.</i></p>
+                              <div id="hide">
+                                <div class="row">
+                                  <div class="col-sm-2">
+                                    <img src="images/4piece.jpg" width="200px" height="200px">
+                                    <figcaption><p>Small size pizza.<br>4-pieces.</p></figcaption>
+                                  </div>
+                                  <div class="col-sm-2">
+                                    <img src="images/veg2pizza.jpeg" width="200px" height="200px">
+                                    <figcaption>Medium size pizza<br>6-pieces.</figcaption>
+                                  </div>
+                                  <div class="col-sm-2">
+                                    <img src="images/tomatopizza.jpeg" width="200px" height="200px">
+                                    <figcaption><p>Large size pizza<br>8-pieces.</p></figcaption>
+                                  </div>
+                                  <div class="col-sm-2">
+                                    <img src="images/meatpizza.jpeg" width="200px" height="200px">
+                                    <figcaption><p>Mega size pizza<br>12-pieces.</p></figcaption>
+                                  </div>
+                                </div>
                               </div>
                             </div>
-                          </div>
-                        </div><br>
-                    
-                        <!-- </td>    
-                        <tr>
-                          <td> -->
-                            <h5>Choose your crust. </h5>
-                            <select name="crust" id="crust">
-                              <option name="thinCrust" value="thinCrust">Thin crust</option>
-                              <option name="thickCrust" value="thickCrust">Thick crust</option>
-                              <option name="cheeseStuffed" value="cheesestuffed">Cheese crust</option>
-                              <option name="neaCrust" value="neaCrust">Neapolitan crust</option>                       
-                            </select><br><br>
-                            <p id="show2"><i><b>Show images</b></i></p>
-                            <div class="hide1">
-                              <div class="row">
-                                <div class="col-sm-3">
-                                    <img src="images/crustThin.jpeg" alt="thin crust" height="200px" width="200px">
-                                    <figcaption>Thin crust pizza<br></figcaption>
-                                </div>
-                                <div class="col-sm-3">
-                                    <img src="images/thickcrust.jpeg" height="200px" width="200px">
-                                    <figcaption>Thick crust pizza</figcaption>
-                                </div>
-                                <div class="col-sm-3">
-                                    <img src="images/cheeseCrust.jpeg" height="200px" width="200px">
-                                    <figcaption>Cheese crust</figcaption>
-                                </div>
-                                <div class="col-sm-3">
-                                    <img src="images/crustNe.jpeg" height="200px" width="200px">
-                                    <figcaption>Neapolitan crust.</figcaption>
-                                </div>
-                              </div>                      
-                            </div><br><br>
-                            <h5>Choose your toppings</h5><br>
-                            <p>Vegetables:</p>
-                            <input type="checkbox" name="ovacado" value="ovacado">
-                            <label for="ovacado">Ovacado</label>
-                            <input type="checkbox" name="broccoli" value="broccoli">
-                            <label for="broccoli">Broccoli</label>
-                            <input type="checkbox" name="carrot" value="carrot">
-                            <label for="carrot">Carrot</label>
-                            <input type="checkbox" name="cherrytomatoes" value="cherrytomatoes">
-                            <label for="cherrytomatoes">Cherry tomatoes</label>
-                            <input type="checkbox" name="driedTomatoes" value="driedTomatoes">
-                            <label for="driedTomatoes">Dried Tomatoes</label><br>
-                            <input type="checkbox" name="lettuce" value="lettuce">
-                            <label for="lettuce">Lettuce</label>
-                            <input type="checkbox" name="greenpepper" value="greenpepper">
-                            <label for="greenpepper">Greenpepper</label>
-                            <input type="checkbox" name="onions" value="onions">
-                            <label for="onions">Onions</label>
-                            <input type="checkbox" name="redonions" value="redonions">
-                            <label for="redonions">Redonions</label>
-                            <input type="checkbox" name="mushrooms" value="mushroom">
-                            <label for="mushroom">Mushroom</label>
-                            <input type="checkbox" name="spinach" value="spinach">
-                            <label for="spinach">Spinach</label><br>
 
-                            <p>Meat:</p>
-                            <input type="checkbox" name="bacon" value="bacon">
-                            <label for="bacon">Bacon</label>
-                            <input type="checkbox" name="beef" value="beef">
-                            <label for="beef">Beef</label>
-                            <input type="checkbox" name="chickenMasala" value="chickenMasala">
-                            <label for="chickenMasala">Chicken masala</label>
-                            <input type="checkbox" name="pepperoni" value="pepperoni">
-                            <label for="pepperoni">Pepperoni</label>
-                            <input type="checkbox" name="sausage" value="sausage">
-                            <label for="sausage">Sausage</label>
-                            <input type="checkbox" name="chickenTikka" value="chickenTikka">
-                            <label for="chickenTikka">Chicken Tikka</label><br>
-                            
-                            <p>Herbs and Spices</p>
-                            <input type="checkbox" name="garlic"value="Parlic">
-                            <label for="garlic">Garlic</label>
-                            <input type="checkbox" name="pepper"value="Pepper">
-                            <label for="pepper">Pepper</label>
-                            <input type="checkbox" name="rosemary"value="Rosemary">
-                            <label for="rosemary">Rosemary</label>
-                            <input type="checkbox" name="basil"value="basil">
-                            <label for="basil">Basil</label><br>
-                            
-                            <p>Cheese:</p>
-                            <input type="checkbox" name="blueCheese" value="BlueCheese">
-                            <label for="bluecheese">Blue cheese</label>
-                            <input type="checkbox" name="brie" value="brie">
-                            <label for="brie">Brie</label>
-                            <input type="checkbox" name="chedar" value="chedar">
-                            <label for="chedar">Chedar</label>
-                  </td>
-                  <td>
-                    <div class="list">
-                      <p>Your order list.</p>
-                      <ul id="order"></ul>
-                      <div class="row">
-                        <div class="col-sm-6">
-                          <button id="deliver">Delivery</button>
+                                <h5>Choose your crust. </h5>
+                                <select name="crust" id="crust">
+                                  <option name="thinCrust" value="thinCrust">Thin crust</option>
+                                  <option name="thickCrust" value="thickCrust">Thick crust</option>
+                                  <option name="cheeseStuffed" value="cheesestuffed">Cheese crust</option>
+                                  <option name="neaCrust" value="neapolitanCrust">Neapolitan crust</option>
+                                  <option name="stuffedrust" value="StuffedCrust">Stuffed crust</option>                      
+                                </select><br>
+                                <p id="show2"><i>Show images</i></p>
+                                <div class="hide1">
+                                  <div class="row">
+                                    <div id="stff" class="col-sm-2">
+                                        <img src="images/crustThin.jpeg" alt="thin crust" height="200px" width="200px">
+                                        <figcaption>Thin crust pizza<br></figcaption>
+                                    </div>
+                                    <div id="stff" class="col-sm-2">
+                                        <img src="images/thickcrust.jpeg" height="200px" width="200px">
+                                        <figcaption>Thick crust pizza</figcaption>
+                                    </div>
+                                    <div id="stff"class="col-sm-2">
+                                        <img src="images/cheeseCrust.jpeg" height="200px" width="200px">
+                                        <figcaption>Cheese crust</figcaption>
+                                    </div>
+                                    <div id="stff" class="col-sm-2">
+                                        <img src="images/crustNe.jpeg" height="200px" width="200px">
+                                        <figcaption>Neapolitan crust.</figcaption>
+                                    </div>
+                                    <div id="stff" class="col-sm-2">
+                                      <img src="images/stuffed.jpeg"height="200px" width="200px">
+                                      <figcaption>Stuffed crust</figcaption>
+                                    </div>
+                                  </div>                      
+                                </div>
+                                <h5>Choose your toppings</h5><br>
+                                <p>Vegetables:</p>
+                                <input type="checkbox" name="topping" value="ovacado">
+                                <label for="ovacado">Ovacado</label>
+                                <input type="checkbox" name="topping" value="broccoli">
+                                <label for="broccoli">Broccoli</label>
+                                <input type="checkbox" name="topping" value="carrot">
+                                <label for="carrot">Carrot</label>
+                                <input type="checkbox" name="topping" value="cherrytomatoes">
+                                <label for="cherrytomatoes">Cherry tomatoes</label>
+                                <input type="checkbox" name="topping" value="driedTomatoes">
+                                <label for="driedTomatoes">Dried Tomatoes</label><br>
+                                <input type="checkbox" name="topping" value="lettuce">
+                                <label for="lettuce">Lettuce</label>
+                                <input type="checkbox" name="topping" value="greenpepper">
+                                <label for="greenpepper">Greenpepper</label>
+                                <input type="checkbox" name="topping" value="onions">
+                                <label for="onions">Onions</label>
+                                <input type="checkbox" name="topping" value="redonions">
+                                <label for="redonions">Redonions</label>
+                                <input type="checkbox" name="topping" value="mushroom">
+                                <label for="mushroom">Mushroom</label>
+                                <input type="checkbox" name="topping" value="spinach">
+                                <label for="spinach">Spinach</label><br>
+    
+                                <p>Meat:</p>
+                                <input type="checkbox" name="topping" value="bacon">
+                                <label for="bacon">Bacon</label>
+                                <input type="checkbox" name="topping" value="beef">
+                                <label for="beef">Beef</label>
+                                <input type="checkbox" name="topping" value="chickenMasala">
+                                <label for="chickenMasala">Chicken masala</label>
+                                <input type="checkbox" name="topping" value="pepperoni">
+                                <label for="pepperoni">Pepperoni</label>
+                                <input type="checkbox" name="topping" value="sausage">
+                                <label for="sausage">Sausage</label>
+                                <input type="checkbox" name="topping" value="chickenTikka">
+                                <label for="chickenTikka">Chicken Tikka</label><br>
+                                
+                                <p>Herbs and Spices</p>
+                                <input type="checkbox" name="topping"value="Parlic">
+                                <label for="garlic">Garlic</label>
+                                <input type="checkbox" name="topping"value="Pepper">
+                                <label for="pepper">Pepper</label>
+                                <input type="checkbox" name="topping"value="Rosemary">
+                                <label for="rosemary">Rosemary</label>
+                                <input type="checkbox" name="topping"value="basil">
+                                <label for="basil">Basil</label><br>
+                                
+                                <p>Cheese:</p>
+                                <input type="checkbox" name="topping" value="BlueCheese">
+                                <label for="bluecheese">Blue cheese</label>
+                                <input type="checkbox" name="topping" value="brie">
+                                <label for="brie">Brie</label>
+                                <input type="checkbox" name="topping" value="chedar">
+                                <label for="chedar">Chedar</label><br>
+                                <div id="newpizza"></div>
+                      </td>
+                      <td>
+                        <div class="list">
+                          <center><h4>Your order list.</h4></center>
+                          <div id="order"></div>
+                          <button id="add">Add pizza</button>
+                          <div class="row">
+                            <div class="col-sm-6">
+                              <button id="deliver">Delivery</button>
+                            </div>
+                            <div class="col-sm-6">
+                              <button id="pick">Pick-up</button>
+                            </div>
+                          </div><br>
+                          <button id="total">Total_Amount</button><br>
+                          <button type="submit">0rder now</button>
                         </div>
-                        <div class="col-sm-6">
-                          <button id="pick">Pick-up</button>
-                        </div>
-                      </div>
-                    </div>
+                      </td>
+                    </tr>
                   </td>
-                </tr>
-              </td>
-            </tr>  
-          </table>
-        </form>
+                </tr>  
+              </table>  
+            </form>
+            
+          <!-- </div> -->
+          <div class="card-footer">
+            <center><h2 class="status">~THANK YOU FOR MAKING US YOUR FISRT OPTION~</h2></center>
+          </div>
+        <!-- </div>
+         -->
       </div>
-    </div>
     
   </div>
-
+  
   
   
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
