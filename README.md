@@ -20,7 +20,10 @@ The language used to develop this application is the HTML,CSS,BOOTSTRAP,JAVASCRI
 If you encounter any mischevious operation on this application you can contact our support team at dannyagah13@gmail.com
 
 ## BDD(Behaviour Driven Development)
-
+The user is expected to choose the pizza size.
+choose pizza crust.
+choose pizza toppings.
+the applicaton should give the prize according to the users inputs on size,crust and toppings. 
 ### License
 
 copyright(c)2019
