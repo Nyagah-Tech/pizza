@@ -54,6 +54,12 @@ function getPriceByTopping(){
 function getTotalPrice(){
     return getPriceBySize() + getPriceByCrust() + getPriceByTopping();
 }
+function reset(){
+    $("#size option:selected").val("");
+    $("input:checkbox[name='topping']").prop('checked',false);
+    $("#crust option:selected").val("");
+
+}
 
 
 // UI logic
@@ -117,7 +123,10 @@ $(document).ready(function(){
         function(event){
             event.preventDefault();
             alert("Your order has been recieved.Thank you for ordering..")
+            reset();
+            
         }
+
     );
     $("#deliver").click(function(){
         var del=200;
