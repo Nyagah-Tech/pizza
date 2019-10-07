@@ -17,6 +17,7 @@ The above web apllication is upto date and no know bug is present.
 ## Technologies Used
 The language used to develop this application is the HTML,CSS,BOOTSTRAP,JAVASCRIPT and JQUERY which is a js library.. 
 ## Support and contact details
+If you encounter any mischevious operation on this application you can contact our support team at dannyagah13@gmail.com
 
 ## BDD(Behaviour Driven Development)
 
