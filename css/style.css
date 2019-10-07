@@ -84,6 +84,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   padding:10x;
+
 }
 
 .hd1{
@@ -113,6 +114,7 @@ h5{
 }
 .finalform{
   display:none;
+
 }
 .logo4{
   position: absolute;
