@@ -100,7 +100,8 @@ $(document).ready(function(){
           $("#order").append(
               '<ul>'+
               '<li>'+
-                '<p>Pizza size:</p>'+ pizza.size+
+
+              '<p>Pizza size:</p>'+ pizza.size+
               '</li>'+
               '<li>'+
                 '<p>Pizza crust:</p>'+ pizza.crust+
@@ -112,7 +113,7 @@ $(document).ready(function(){
                 '<p>Delivery = 150</p>'+
               '</li>'+
               '<li>'+
-                total+
+                '<p>Total amount<p/>' + total+
               '</li>'+
               '</ul>'
           );
