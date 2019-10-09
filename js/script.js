@@ -33,8 +33,11 @@ function getPriceBySize(){
     else if(inputtedSize === "medium"){
         return pizzaSizePrice.medium;
     }
-    else{
-        return pizzaSizePrice.large;
+    else if (inputtedSize ==="large"){
+      return pizzaSizePrice.large;
+    }
+    else {
+      return pizzaSizePrice.mega;
     }
 }
 function getPriceByCrust(){
@@ -46,6 +49,11 @@ function getPriceByCrust(){
     }
     else if(inputtedCrust === "neapolitanCrust"){
         return pizzaCrustPrice.neapolitanCrust;
+    }else if(inputtedCrust==="StuffedCrust"){
+      return pizzaCrustPrice.StuffedCrust
+    }
+    else{
+      return pizzaCrustPrice==="cheeseCrust"
     }
 }
 function getPriceByTopping(){
